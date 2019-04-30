@@ -1,0 +1,23 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "- Template Dockerfile and builds with node - running locally on minikube - inter container communication between two services",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artbegolli/k8s-node-hello-world.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artbegolli/k8s-node-hello-world/issues"
+  },
+  "homepage": "https://github.com/artbegolli/k8s-node-hello-world#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
