@@ -4,4 +4,8 @@ const port = 3001
 
 app.get('/', (req, res) => res.send('World!'))
 
-app.listen(port, () => console.log(`World app listening on port ${port}!`))
+app.get('/world', (req, res) => res.send('World hit by the Hello'))
+
+app.listen(port, () => {
+    console.log(`World app listening on port ${port}!`)
+});
