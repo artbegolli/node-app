@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello
-        image: art/hello-app:latest
+        image: artbegolli/node-app:0.0.1
         imagePullPolicy: Never
         ports:
         - containerPort: 80
