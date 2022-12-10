@@ -19,7 +19,7 @@
   "homepage": "https://github.com/artbegolli/k8s-node-hello-world#readme",
   "dependencies": {
     "axios": "^0.18.1",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "request": "^2.88.0"
   }
 }
